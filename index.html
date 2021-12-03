@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="mainDiv">
+    <p id="vvedit">Введіть наступні дані:
+    <div class="childDiv">
+        <div>
+            <p>Ім'я
+                <input type="text" placeholder="name" id="name">
+            </p>
+        </div>
+    <div>
+        <p>Вік
+            <input type="text" placeholder="age" id="age">
+        </p>
+    </div>
+    </div>
+    <button id="button">Старт</button>
+</div>
+<script>
+    document.getElementById('button').addEventListener('click',function (){
+        let name=document.getElementById('name').value
+        let age = document.getElementById('age').value
+        alert(`Твоє ім'я:${name}\nТвій вік: ${age}`)
+    })
+</script>
+</body>
+</html>

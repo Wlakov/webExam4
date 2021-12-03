@@ -1,0 +1,11 @@
+.mainDiv{
+    width: 500px;
+    height: 200px;
+    border: solid;
+}
+#vvedit{
+    margin-left: 10px;
+}
+.childDiv{
+    margin-left: 100px;
+}
